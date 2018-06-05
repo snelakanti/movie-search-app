@@ -16,7 +16,7 @@ if(!error && response.statusCode == 200){
     res.render("results", {data: data});
 }
     });
-})
+});
 
 
 app.listen(process.env.PORT || 3000, process.env.IP, function(){
