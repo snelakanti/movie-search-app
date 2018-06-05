@@ -3,7 +3,7 @@ var app = express();
 var request = require("request");
 app.set("view engine", "ejs");
 
-app.get("/", function(req,res){
+app.get("/search", function(req,res){
     res.render("search");
 });
 
